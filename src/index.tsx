@@ -1,6 +1,8 @@
 import { render, type FunctionalComponent } from 'preact';
 
-import { Empty } from '@components/empty';
+import { lazy } from 'preact/compat';
+
+const Empty = lazy(() => import('@components/empty'));
 
 export const App: FunctionalComponent = () => <Empty loading />;
 
