@@ -5,5 +5,5 @@ type Props = {
 };
 
 export const Empty: FunctionalComponent<Props> = ({ loading = false }) => {
-  return <div>{loading && <span>now loading</span>}</div>;
+  return <div>{loading && <p>This is lazy Component</p>}</div>;
 };
