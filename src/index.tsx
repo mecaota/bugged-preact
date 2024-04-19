@@ -2,7 +2,7 @@ import { render, type FunctionalComponent } from 'preact';
 
 import { Suspense, lazy } from 'preact/compat';
 
-const Empty = lazy(() => import('@components/empty'));
+const Empty = lazy(() => import('@components/empty').then(x => x.Empty));
 
 export const App: FunctionalComponent = () => (
   <div>
