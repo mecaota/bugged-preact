@@ -1320,7 +1320,7 @@ __metadata:
     eslint-plugin-react: "npm:7.34.1"
     eslint-plugin-react-hooks: "npm:4.6.0"
     preact: "npm:10.20.2"
-    preact-render-to-string: "npm:6.4.2"
+    preact-render-to-string: "npm:6.5.5"
     prettier: "npm:3.2.5"
     rollup-plugin-visualizer: "npm:5.12.0"
     typescript: "npm:5.4.5"
@@ -3669,14 +3669,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact-render-to-string@npm:6.4.2":
-  version: 6.4.2
-  resolution: "preact-render-to-string@npm:6.4.2"
-  dependencies:
-    pretty-format: "npm:^3.8.0"
+"preact-render-to-string@npm:6.5.5":
+  version: 6.5.5
+  resolution: "preact-render-to-string@npm:6.5.5"
   peerDependencies:
     preact: ">=10"
-  checksum: 10c0/fcd0613abf89bb012da2013c63ccc11a7f2400121d8ef6c3abe0574bd04b84ddb8d633f6ffcc9549bcbd2113241d558339766cbc6afb8f70106f91d35d17bb82
+  checksum: 10c0/563bf0c45c4a6b91cfb81a3f35546ee4dbd4bca7f301f0824f41c37a4a05e71f69ca6bb4735302ef2b31d412bea55bc88ebca49ea4955485c1776b5f7c17e700
   languageName: node
   linkType: hard
 
@@ -3700,13 +3698,6 @@ __metadata:
   bin:
     prettier: bin/prettier.cjs
   checksum: 10c0/ea327f37a7d46f2324a34ad35292af2ad4c4c3c3355da07313339d7e554320f66f65f91e856add8530157a733c6c4a897dc41b577056be5c24c40f739f5ee8c6
-  languageName: node
-  linkType: hard
-
-"pretty-format@npm:^3.8.0":
-  version: 3.8.0
-  resolution: "pretty-format@npm:3.8.0"
-  checksum: 10c0/69f12937bfb7b2a537a7463b9f875a16322401f1e44d7702d643faa0d21991126c24c093217ef6da403b54c15942a834174fa1c016b72e2cb9edaae6bb3729b6
   languageName: node
   linkType: hard
 
