@@ -1324,7 +1324,7 @@ __metadata:
     prettier: "npm:3.2.5"
     rollup-plugin-visualizer: "npm:5.12.0"
     typescript: "npm:5.4.5"
-    vite: "npm:5.2.9"
+    vite: "npm:5.2.14"
     vite-tsconfig-paths: "npm:4.3.2"
   languageName: unknown
   linkType: soft
@@ -4534,9 +4534,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.2.9":
-  version: 5.2.9
-  resolution: "vite@npm:5.2.9"
+"vite@npm:5.2.14":
+  version: 5.2.14
+  resolution: "vite@npm:5.2.14"
   dependencies:
     esbuild: "npm:^0.20.1"
     fsevents: "npm:~2.3.3"
@@ -4570,7 +4570,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/2bf8faa7ae84d5fffabc28b2b2462128a839b8a7ce6d4dde1794975c8c896443df49a54ef95ad8f0326457648426fd9317a618479ef28049cb195d91985729ed
+  checksum: 10c0/0ed7a8f8274d14bbd01be2ca5c7c539f915e75d884a97f6051cdf494997832bc02c7db9fc9c5ba8f057d5fece28a3bf215761815e6014e843abe2c38a9424fb7
   languageName: node
   linkType: hard
 
